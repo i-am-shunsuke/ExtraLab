@@ -1,0 +1,33 @@
+body{
+    counter-reset: section;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* .title */
+.title h1{
+    margin: 0;
+    text-align: center;
+    background: lightskyblue;
+    padding: 10px;
+}
+
+/* .content */
+.content{
+    text-align: center;
+    border: dashed lightgray 3px;
+    width: 80%;
+    margin: 0 auto;
+}
+.content h2{
+    font-size: 2.2rem;
+}
+.content p{
+    font-size: 1.5rem;
+}
+/* put counter-increment here */
+h2::before {
+    counter-increment: section;
+    content: "Section " counter(section) ": ";
+}
