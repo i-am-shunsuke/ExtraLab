@@ -1,3 +1,7 @@
+/* ReferenceList */
+/* https://www.w3schools.com/cssref/pr_gen_counter-increment.php */
+/* https://www.w3schools.com/cssref/pr_gen_counter-reset.php */
+
 body{
     counter-reset: section;
     font-size: 100%;
